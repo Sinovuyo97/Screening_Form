@@ -1,0 +1,93 @@
+* {
+  font-family: 'Montserrat';
+}
+
+h1,
+p {
+  font-family: Lato;
+  color: #2c5f2d;
+}
+form h1 {
+  text-align: center;
+  color: #97bc62ff;
+}
+form .inputs input {
+  border: none;
+  border-bottom: 2px solid #97bc62ff;
+  background: transparent;
+  color: #97bc62ff;
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgb(103, 131, 67);
+  opacity: 1; /* Firefox */
+}
+
+select {
+  background: transparent;
+  color: #97bc62ff;
+}
+select option {
+  background: #2c5f2d;
+  border: none;
+}
+
+
+select option:hover[value='1'] {
+  background: transparent;
+  border: none;
+}
+
+select option[value='2'] {
+  background: transparent;
+}
+
+select option[value='3'] {
+  background: transparent;
+  color: #97bc62ff;
+}
+
+select option[value='4'] {
+  background: transparent;
+  color: #97bc62ff;
+}
+.optionbox {
+  margin: 7px;
+  color: #97bc62ff;
+}
+.button {
+  background: transparent;
+  color: #97bc62ff;
+  width: 100px;
+  height: 40px;
+}
+.names {
+  display: flex;
+  flex-direction: row;
+  color: #97bc62ff;
+}
+.IdTemperature {
+  display: flex;
+  flex-direction: row;
+  color: #97bc62ff;
+}
+.formSide {
+  display: flex;
+  background: #2c5f2d;
+  color: #97bc62ff;
+}
+label {
+  color: #97bc62ff;
+  font-size: 20px;
+}
+.iziphumo {
+  background: #97bc62ff;
+  color: #2c5f2d;
+  width:100%;
+  height:112vh;
+  overflow-y: scroll;
+}
+.form-table {
+  color: #2c5f2d;
+}
